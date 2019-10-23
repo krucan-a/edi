@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movie_list>
+    <movie title="Pulp Fiction">
+        <movie director="Quentin Tarantino"></movie>
+        <movie rating="9"></movie>
+    </movie>
+    <movie title="Terminator">
+        <movie director="Tim Miller"></movie>
+        <movie rating="8"></movie>
+    </movie>
+    <movie title="Revenant">
+        <movie director="Alejandro González Iñárritu"></movie>
+        <movie rating="7"></movie>
+    </movie>
+    <movie title="Vabank">
+        <movie director="Juliusz Machulski"></movie>
+        <movie rating="8"></movie>
+    </movie>
+    <movie title="Dzień Świra">
+        <movie director="Marek Koterski"></movie>
+        <movie rating="8"></movie>
+    </movie>
+</movie_list>

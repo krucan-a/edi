@@ -22,4 +22,14 @@
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
 	</contact>
+	<contact>
+		<name>Krzysztof</name>
+		<name>Maciej</name>
+		<surname>Kononowicz</surname>
+		<email type="personal">konon@gmail.com</email>
+		<email type="business">K.Kononowicz@CompLand.pl</email>
+		<phone type="home">2137558</phone>
+		<phone type="work">3131486</phone>
+		<notes>Big Guy</notes>
+	</contact>
 </contacts>
