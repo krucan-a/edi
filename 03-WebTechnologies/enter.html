@@ -6,15 +6,20 @@
 	</head>
 	<body>
 		<h1>Enter data</h1>
-		<p>Display data one the console</p>
+		<p id = "demo"></p>
 
 		<script>
 			// enter your name, surname
-			// ...
-			
+			var name = prompt("Podaj swoje imie")
+			var surname = prompt("Podaj swoje nazwisko")
+			var age = prompt("Podaj swój wiek")
+
 			// display your name and surname in a popup window and on the console
 			// ...
-			
+			console.log(name,surname,age)
+			txt = name + " " + surname + " " + age
+			alert(name + " " + surname + " " + age)	
+			document.getElementById("demo").innerHTML = txt;		
 			// 
 		</script>
 	</body>
