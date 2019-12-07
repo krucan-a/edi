@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Create DOM elements</title>
+		<title>Text translation</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
+<<<<<<< HEAD
 		<h3 id = "demo" onmouseover="polishtranslate(this)" onmouseout="englishtranslate(this)">Sticks and stones may break my bones, but words will never harm me.</h3>
 		<script>
 			var english = "Sticks and stones may break my bones, but words will never harm me.";
@@ -18,6 +19,13 @@
 				document.getElementById("demo").innerHTML = english
 			}
 
+=======
+		<h3 onmouseover="textPL(this)">Sticks and stones may break my bones, but words will never harm me.</h3>
+		<script>
+			function textPL(element){
+				element.innerHTML = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią"
+			}
+>>>>>>> 60e90bfad93d51b51997b979fb92e436fa6b6a3d
 		</script>
 	</body>
 </html>
